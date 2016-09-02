@@ -22,5 +22,122 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="Ktx-DM-H2X">
+            <objects>
+                <viewController storyboardIdentifier="Setting" id="PHi-0v-Ogp" customClass="SettingViewController" customModule="BasicEnglish" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wLD-uV-CPQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="et1-af-xRG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BSp-hO-zf0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LWb-DS-Oh5">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="LWb-DS-Oh5" secondAttribute="trailing" id="HD2-lT-sVj"/>
+                            <constraint firstItem="et1-af-xRG" firstAttribute="top" secondItem="LWb-DS-Oh5" secondAttribute="bottom" id="Jw6-K0-LBM"/>
+                            <constraint firstItem="LWb-DS-Oh5" firstAttribute="leading" secondItem="BSp-hO-zf0" secondAttribute="leading" id="NWY-39-eII"/>
+                            <constraint firstItem="LWb-DS-Oh5" firstAttribute="top" secondItem="wLD-uV-CPQ" secondAttribute="bottom" id="zc6-95-HIe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="LWb-DS-Oh5" id="mAP-Gd-VpT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="60Y-Pc-12y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="282" y="1008"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="K6s-kA-vyC">
+            <objects>
+                <viewController storyboardIdentifier="Home" id="kMv-8r-RWe" customClass="HomeViewController" customModule="BasicEnglish" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CbK-rm-cal"/>
+                        <viewControllerLayoutGuide type="bottom" id="tGL-mr-zUV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b43-sp-jHf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VFw-sl-OcH">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tGL-mr-zUV" firstAttribute="top" secondItem="VFw-sl-OcH" secondAttribute="bottom" id="Abh-Lh-BAU"/>
+                            <constraint firstItem="VFw-sl-OcH" firstAttribute="top" secondItem="CbK-rm-cal" secondAttribute="bottom" id="G9d-OP-q8N"/>
+                            <constraint firstItem="VFw-sl-OcH" firstAttribute="leading" secondItem="b43-sp-jHf" secondAttribute="leading" id="kBD-D4-Eft"/>
+                            <constraint firstAttribute="trailing" secondItem="VFw-sl-OcH" secondAttribute="trailing" id="qeN-Dh-vLO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="VFw-sl-OcH" id="cus-JB-vEi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eN9-07-5RQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="904" y="321"/>
+        </scene>
+        <!--AndA View Controller-->
+        <scene sceneID="mPY-YV-eK0">
+            <objects>
+                <viewController storyboardIdentifier="QAndA" id="zUy-pM-W7L" customClass="QAndAViewController" customModule="BasicEnglish" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rgS-3d-dRa"/>
+                        <viewControllerLayoutGuide type="bottom" id="IFb-Tj-Zj7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zRt-Xv-5mI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iVH-b3-8h9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1553" y="321"/>
+        </scene>
+        <!--Change Line View Controller-->
+        <scene sceneID="jTE-g6-Jhm">
+            <objects>
+                <viewController storyboardIdentifier="Change" id="vFH-Tf-eCP" customClass="ChangeLineViewController" customModule="BasicEnglish" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pS9-v5-Vj5"/>
+                        <viewControllerLayoutGuide type="bottom" id="HtO-eH-XAT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="21D-Qp-Jaz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BFH-Q2-JRF">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BFH-Q2-JRF" firstAttribute="leading" secondItem="21D-Qp-Jaz" secondAttribute="leading" id="3cl-hz-ofu"/>
+                            <constraint firstAttribute="trailing" secondItem="BFH-Q2-JRF" secondAttribute="trailing" id="LJa-fN-OC6"/>
+                            <constraint firstItem="HtO-eH-XAT" firstAttribute="top" secondItem="BFH-Q2-JRF" secondAttribute="bottom" id="d5n-4j-nRR"/>
+                            <constraint firstItem="BFH-Q2-JRF" firstAttribute="top" secondItem="pS9-v5-Vj5" secondAttribute="bottom" id="oe7-Db-btg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="BFH-Q2-JRF" id="IGZ-QI-hdl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VsR-Kd-sHY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="904" y="1015"/>
+        </scene>
     </scenes>
 </document>

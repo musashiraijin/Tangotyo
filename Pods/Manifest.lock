@@ -1,0 +1,20 @@
+PODS:
+  - ESTabBarController (0.1.3)
+  - Realm (1.0.0):
+    - Realm/Headers (= 1.0.0)
+  - Realm/Headers (1.0.0)
+  - RealmSwift (1.0.0):
+    - Realm (= 1.0.0)
+
+DEPENDENCIES:
+  - ESTabBarController
+  - RealmSwift (= 1.0.0)
+
+SPEC CHECKSUMS:
+  ESTabBarController: f08fa16b154cfb9d8d42096f7d6d10b58775dbf5
+  Realm: e15cd8e7c11d3e576f628ba0b7cb855269b4991c
+  RealmSwift: 3229306d020d96f83b335f87a0dcbf2cef0e6a2b
+
+PODFILE CHECKSUM: 082afea1af9fdea6ff7b4970e692789017912830
+
+COCOAPODS: 1.0.1
