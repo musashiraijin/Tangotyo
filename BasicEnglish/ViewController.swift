@@ -50,8 +50,8 @@ class ViewController: UIViewController {
         tabBarController.highlightButtonAtIndex(1)
         tabBarController.setAction({
             // ボタンが押されたらImageViewControllerをモーダルで表示する
-            let imageViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ImageSelect")
-            self.presentViewController(imageViewController!, animated: true, completion: nil)
+            let qAndAViewController = self.storyboard?.instantiateViewControllerWithIdentifier("QAndA")
+            self.presentViewController(qAndAViewController!, animated: true, completion: nil)
             }, atIndex: 1)
         
         // HomeViewControllerを選択
